@@ -77,7 +77,6 @@ const Landing = () => {
 				{pokemonArray?.map((pokemon) => (
 					<div style={{ margin: "5%" }} key={pokemon.data.id}>
 						<PokemonCard pokemon={pokemon.data.name} />
-            {console.log(pokemon.data.name)}
 					</div>
 				))}
 			</div>
